@@ -91,3 +91,6 @@ allObsDT <- inner_join(actLabelsSource,allObsDT)
 
 
 ## REQUIREMENT #5 From the data set, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+summaryDT <- tapply(summaryDT, *, mean)
+
+write.table(allObsDT,file="SummaryDT.txt",row.name=FALSE)
