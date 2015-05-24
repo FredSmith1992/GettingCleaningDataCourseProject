@@ -1,4 +1,4 @@
-##
+## 
 ## Getting and Cleaning Data - Course Project Requirements
 ##
 ## You should create one R script called run_analysis.R that does the following. 
@@ -94,3 +94,4 @@ allObsDT <- inner_join(actLabelsSource,allObsDT)
 summaryDT <- tapply(summaryDT, *, mean)
 
 write.table(allObsDT,file="SummaryDT.txt",row.name=FALSE)
+
