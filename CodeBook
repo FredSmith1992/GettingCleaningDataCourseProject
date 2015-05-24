@@ -22,7 +22,7 @@ Core Data Captured
 	tBodyGyroMag
 	tBodyGyroJerkMag
 	fBodyAcc-XYZ
-	fBodyAccJerk-XYZ
+	fBodyAccJerk-XYZ 
 	fBodyGyro-XYZ
 	fBodyAccMag
 	fBodyAccJerkMag
